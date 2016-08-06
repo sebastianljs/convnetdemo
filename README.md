@@ -4,7 +4,8 @@ Use convnetjs lib to run a convolutional neural network in the browser.
 To run (via OSX Terminal):
 - git clone this project
 - cd into dir
-- start up dummy server using 'python -m SimpleHTTPServer'
+- start up dummy server using 'python -m SimpleHTTPServer' OR
+- for python3 using 'python -m http.server'
 - open browser (recommend to use Chrome) and navigate to local address that python prints for you
 
 Resources:
