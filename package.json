@@ -1,0 +1,19 @@
+{
+  "name": "convnetdemoonnode",
+  "version": "1.0.0",
+  "description": "run convnet demo on a nodejs server",
+  "main": "convnet_demo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vyyyy/convnetdemo.git"
+  },
+  "author": "vyoma p",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vyyyy/convnetdemo/issues"
+  },
+  "homepage": "https://github.com/vyyyy/convnetdemo#readme"
+}
