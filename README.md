@@ -7,8 +7,7 @@ Use convnetjs library to run a convolutional neural network in the browser.
 
 ## To run:
 Start up dummy server on  
-NodeJS:  
-$ node server.js  
+NodeJS: $ node server.js  
 - open browser and navigate to https://localhost:8000
 
 Python 3:
