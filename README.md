@@ -1,12 +1,23 @@
 # convnet demo
-Use convnetjs lib to run a convolutional neural network in the browser.
+Use convnetjs library to run a convolutional neural network in the browser.
 
-To run (via OSX Terminal):
+## Usage:
 - git clone this project
-- cd into dir
-- start up dummy server using 'python -m SimpleHTTPServer' OR
-- for python3 using 'python -m http.server'
-- open browser (recommend to use Chrome) and navigate to local address that python prints for you
+- cd into directory
+
+## To run:
+- Start up dummy server on
+NodeJS:
+$ node server.js
+- open browser and navigate to https://localhost:8000
+
+Python 3:
+$ 'python -m http.server'
+
+Python 2:
+$ 'python -m SimpleHTTPServer'
+- open browser (recommended to use Chrome) and navigate to local address that python prints for you
+
 
 Resources:
 
