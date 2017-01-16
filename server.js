@@ -1,11 +1,9 @@
 var http = require('http');
 var fs = require('fs');
 
-// set the port for the server
-var port = process.env.PORT || 8000;
 
 // handle the client request and send back a response from server
-function handler(request, response) {
+http.createServer(function (request, response) {
  var url = request.url;
  switch (url) {
   case '/':
@@ -25,9 +23,9 @@ function handler(request, response) {
   default:
   response.writeHead(404, {'Content-Type':'text/plain'});
   response.end('404 - Page not Found');
-
  }
-}
+}).listen(8000);
+console.log('Server running at http://localhost:8000');
 
 function getStaticFileContent(response, filepath, contentType) {
  fs.readFile(filepath, function (error, file) {
@@ -44,7 +42,3 @@ function getStaticFileContent(response, filepath, contentType) {
   }
  });
 }
-
-http.createServer(handler).listen(port);
-
-console.log('node server listening on http://localhost:' + port);
